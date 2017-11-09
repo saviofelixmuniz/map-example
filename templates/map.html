@@ -1,0 +1,23 @@
+<h1>Demonstração de aprendizado</h1>
+<div map-lazy-load="https://maps.googleapis.com/maps/api/js"
+     map-lazy-load-params="https://maps.googleapis.com/maps/api/js?key=AIzaSyCg-DgACUXO_nUZ5W9A5VHe2H0wD-9tycs">
+<ng-map center="-7.214250, -35.909188" zoom="17" min-zoom="17" style="height: 600px; width: 700px;" on-click="setCenter()" on-drag="drag()" on-dragend="dragEnd()" on-dragstart="dragStart()">
+</ng-map>
+</div>
+
+<br>
+
+<div class="row">
+    <form class="col-xs-4" action="">
+        <input class="form-control col-xs-4" style="margin-bottom: 20px;" type="text" placeholder="Título" ng-model="title">
+        <input class="form-control" type="text" style="margin-bottom: 20px;" placeholder="Descrição" ng-model="description">
+        <input class="form-control" type="text" style="margin-bottom: 20px;" placeholder="Imagem" ng-model="image">
+        <input class="form-control" type="text" placeholder="Ícone" ng-model="icon">
+    </form>
+
+    <div class="col-xs-4">
+        <button class="btn btn-lg btn-success" ng-click="goToMyLocation()">Me ache</button>
+        <input type="checkbox" ng-model="restriction">Restrição de ambiente<br>
+    </div>
+</div>
+

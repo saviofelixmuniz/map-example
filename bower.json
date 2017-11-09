@@ -1,0 +1,24 @@
+{
+  "name": "mapExample",
+  "authors": [
+    "Sávio Muniz <saviofelixmuniz@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.6",
+    "bootstrap": "^3.3.7",
+    "leaflet": "^1.2.0",
+    "angular-ui-router": "ui-router#^1.0.10",
+    "angular-google-maps": "^2.4.1"
+  }
+}

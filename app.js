@@ -1,0 +1,1 @@
+angular.module("map", ['ui.router', 'ngMap']);

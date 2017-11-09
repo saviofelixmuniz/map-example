@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Map Example</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="//unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+
+    <script src="/bower_components/ngmap/build/scripts/ng-map.min.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCg-DgACUXO_nUZ5W9A5VHe2H0wD-9tycs"></script>
+
+
+    <script src="app.js"></script>
+    <script src="controllers/main-controller.js"></script>
+    <!--<script src="directives/ufcg-map.js"></script>-->
+
+    <script src="router.js"></script>
+</head>
+
+<body ng-app="map">
+    <ui-view></ui-view>
+</body>
+</html>
